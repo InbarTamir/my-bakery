@@ -1,0 +1,11 @@
+.contact-form {
+    max-width: 480px;
+}
+
+.md-form label {
+    margin-top: 15px;
+}
+
+.contact-form [type="text"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

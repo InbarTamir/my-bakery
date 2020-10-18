@@ -1,0 +1,35 @@
+.card {
+    margin: 20px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.card a:focus {
+    box-shadow: none;
+}
+
+.collapsing {
+    transition: none;
+}
+
+.show {
+    background-color: rgba(255, 255, 255, 0.575);
+    transition: .4s;
+}
+
+.order-me {
+    padding-top: 35%;
+}

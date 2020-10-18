@@ -1,0 +1,65 @@
+@font-face {
+    font-family: tamir;
+    src: url(../fonts/tamir.ttf);
+}
+
+
+body {
+    font-size: 20px;
+    height: 100vh;
+    background-color: #fbc7dd91;
+    font-family: tamir, Arial, sans-serif;
+    background-image: url("../img/layout/background.png");
+    background-size: 150px;
+    background-position: 20px 110px;
+}
+
+.pink-bg {
+    background-color: #fbc7dd;
+}
+
+.navbar-toggler-icon {
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler:hover {
+    background-color: #dfb2c5;
+}
+
+.dropdown-item.active, .dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.dropdown-item {
+    padding: 10px 0;
+}
+
+.main-content {
+    padding-top: 150px;
+}
+
+.footer {
+    background-color: #fbc7dd6b;
+}
+
+.footer .nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.footer .nav-link:hover {
+    text-shadow: 1px 1px 4px tomato;
+}
+
+.footer span {
+    height: 100%;
+    color: transparent;
+    border-left: 2px solid rgba(0, 0, 0, 0.384);
+}
